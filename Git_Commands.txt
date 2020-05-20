@@ -1,0 +1,87 @@
+Git Commands :
+
+--> git help	(getting general help)
+
+--> git help <command> 		(to get help about that command)
+
+--> pwd		(present working directory)
+
+--> git config --<global setting value>			(configuring global settings)
+
+--> git config --global user.name <"Your Name">		(setting name)
+
+--> git config --global user.email <"you@someplace.com">		(setting email)
+
+--> git config --global --list		(Listing All Global Configuration Settings)
+
+--> cat ~/.gitconfig		(Seeing Git's User-based Config file)
+
+--> git init <Project name>		(to initialize a git repository)
+
+--> ls -a		(to see hidden files)
+
+--> notepad <file name>		(to create a file)
+
+--> git status		(status of git)
+
+--> git commit -m "message"		(commit)
+
+-->	git add <file name>		(To add file to staging area)
+
+--> git reset HEAD <file-name>		(To unstage a file)
+
+--> git checkout -- <file-name>		(back out any changes made to the specified file and replace it with the version last committed in Git)
+
+--> git log		(Git history)
+
+--> git log --oneline --graph --decorate --color		(History in short form)
+
+--> git add .		(To add all the files)
+
+--> git rm <file name>		(To remove a file using git)
+
+--> rm <file name>		(To remove the file using terminal)
+	This removes the file outside Git's knowledge
+
+--> git add -u		(Updating Git's Index (staging area))
+
+--> git mv <source> <destination>		(to move file)
+
+--> cd ~ 	(home directory)
+
+For SSH key:
+
+-->	mkdir .ssh		(make .ssh folder in home directory)
+--> cd .ssh
+--> ssh-keygen -t rsa -C "your email id"		(generating a SSH key)
+--> notepad id_rsa.pub		(open id_rsa.pub file and copy all the text)
+Now go to github.com--> settings--> hash keys---> paste that key
+--> ssh -T git@github.com		(ssh to connect to GitHub over the SSH protocol)
+
+......................................................................................
+
+--> git commit -am "Message" 	(directly commit, no need to write git add command)
+
+--> git remote add <remote-name remote-repository-location>		(associate a remote repository-- Just copy the command from ssh in github																
+																	while creating a new repo)
+																	
+--> git remote -v		(names of all the remote repositories)
+
+--> git push -u origin master 		(Send Changes to Remote, -u for the first time when you push a branch to the remote)
+	
+--> git push origin master 			(Send Changes to Remote)
+
+--> git pull origin master 			(Receive Changes from Remote)
+
+
+
+
+
+
+
+
+
+
+
+
+
