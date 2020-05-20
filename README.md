@@ -2,8 +2,6 @@
 
 This is the first file in this repo.
 
-## Ipsum Below
+## Website Contests
 
-Here is some Ipsum text.
-
-Some more text here.
+1. index.html
